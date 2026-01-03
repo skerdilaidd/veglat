@@ -1,0 +1,14 @@
+
+    paga_mesatare = paga_totale / NUMRI_PUNETOREVE;
+
+    cout << "\n=======================================" << endl;
+    cout << "STATISTIKAT PERFUNDIMTARE" << endl;
+    cout << "---------------------------------------" << endl;
+    cout << "Paga totale: " << paga_totale << " euro" << endl;
+    cout << "Paga mesatare: " << paga_mesatare << " euro" << endl;
+    cout << "Paga maksimale: " << paga_max << " euro" << endl;
+    cout << "Paga minimale: " << paga_min << " euro" << endl;
+    cout << "=======================================" << endl;
+
+    return 0;
+}
