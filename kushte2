@@ -1,0 +1,14 @@
+
+            if (nr == 0) {
+                paga_max = paga;
+                paga_min = paga;
+            } else {
+                if (paga > paga_max) paga_max = paga;
+                if (paga < paga_min) paga_min = paga;
+            }
+
+            nr++;
+        } else {
+            cout << "Gabim ne te dhenat!" << endl;
+            cout << "Shkruani oret ne intervalin 0 - 48." << endl;
+        }
